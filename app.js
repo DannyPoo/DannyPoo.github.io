@@ -20,9 +20,13 @@ $(document).ready(function () {
   var isUpgraded = false;
   var isMonsterUnlocked = true;
 
+  class ItemDrops {
+
+  }
+
 
   // gives 1 beef every second per each minion
-  setInterval(function () {
+  var mainGameLoop = setInterval(function () {
     if (autoBeefPlus > 0 && !isUpgraded) {
       checktotalBeef(totalBeef, totalBeef + beefPlus);
       beef += autoBeefPlus;
