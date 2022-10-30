@@ -20,9 +20,6 @@ $(document).ready(function () {
   var isUpgraded = false;
   var isMonsterUnlocked = true;
 
-  class ItemDrops {
-
-  }
 
 
   // gives 1 beef every second per each minion
