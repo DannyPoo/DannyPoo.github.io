@@ -1,11 +1,10 @@
-var beefTracker = new DropTracker("beef", false);
+var mobs = {"cow": new Mob("cow", [{"name": "beef", "hasPlural": false}])}
 $(document).ready(function () {
-    var mobs = ["Cow"];
-    mobs.forEach(function(mob) {
+    Object.values(mobs).forEach(function(mob) {
         $("#monster-buttons").append(
             `
-            <button id='${mob}' class='mob'>
-                Attack ${mob}
+            <button id='${mob.name}' class='mob'>
+                Attack ${mob.name}
             </button>
             `
         )
@@ -16,8 +15,8 @@ $(document).ready(function () {
 
 function onAttack(){
    var mob = $(this).attr('id');
-   beefTracker.increaseDrop();
-   $("#beef").html(beefTracker.countSummary());
+   mobs[mob].attack();
+   console.log(mobs[mob].inventorySummary())
 }
 
 function gameLoop() {
