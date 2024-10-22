@@ -1,0 +1,42 @@
+technical:
+ - title: CSS
+   level: Beginner
+ - title: HTML5
+   level: Beginner
+ - title: TypeScript
+   level: Intermediate
+ - title: ReactJS
+   level: Intermediate
+ - title: Java
+   level: Intermediate
+ - title: C#
+   level: Intermediate
+ - title: C++
+   level: Beginner
+ - title: Python
+   level: Beginner
+ - title: Git/Github/Docker
+   level: Intermediate
+ - title: SQL and NoSQL
+   level: intermediate
+ - title: AWS
+   level: Beginner
+ - title: NodeJS, jQuery, BootStrap, and Spring Boot
+   level: Beginner
+
+
+soft:
+ - title: Teamwork
+   level: Advanced
+ - title: Communication
+   level: Advanced
+ - title: Problem-Solving
+   level: Intermediate
+ - title: Adaptability
+   level: Advanced
+ - title: Critical Thinking
+   level: Intermediate
+ - title: Time Management
+   level: Intermediate
+ - title: Leadership
+   level: Beginner
